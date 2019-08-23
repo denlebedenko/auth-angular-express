@@ -11,6 +11,6 @@ app.use(bodyParser.json());
 
 
 app.use('/home', api)
-app.get('/', (req, res) => res.send('hello fsrom server'))
+app.get('/', (req, res) => res.send('Hello from server!'))
 
 app.listen(PORT, () => console.log('listening port'+ PORT));
